@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "PokemonH";
+    src: url("../../../assets/Font/Pokemon\ Hollow.ttf") format("truetype"),
+}
+
+
+@font-face {
+    font-family: "Pixel";
+    src: url("../../../assets/Font/pixel.ttf") format("truetype"),
+}
+
+.cart {
+    &__title {
+        font-family: "PokemonH";
+        color: white;
+        padding: 1rem;
+        margin: 0;
+    }
+    &__history {
+        font-family: "PokemonH";
+        color: white;
+        margin:0; 
+    }
+
+    &__button {
+        font-weight: bold;
+        font-size: 2rem;
+        padding: 0.5rem;
+        display: flex;
+        justify-content: center;
+        width: 20vw;
+        background-color: red;
+        color: white; 
+        border-radius: 5px;
+        border: 2px solid yellow;
+        font-family: "Pixel"
+    }
+    &__container {
+        background-image: url('../../../assets/images/background.gif');
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__card {
+        background-color: gold;
+        width: 30vw;
+        border-radius: 4px;
+        font-family: "Pixel";
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+    &__history{
+        padding: 1rem;
+        margin: 0;
+    }
+    &-photo {
+                height: auto;
+                width: 35%;
+            }
+    &-name { 
+                color:black;
+                font-size: 2.0625rem;
+                font-weight: bold;
+                text-align: center;
+                font-family: "Pixel";
+            }
+    &-grading { 
+                color:black;
+                font-size: 2.0625rem;
+                text-align: center;
+            }
+    &-date { 
+                color:black;
+                font-size: 2.0625rem;
+                text-align: center;
+            }
+    &-description { 
+                color:black;
+                font-size: 1.5rem;
+                text-align: center;
+
+            }
+    &-price { 
+                color:black;
+                font-size: 1.5rem;
+                text-align: center;
+            }
+            &-button {
+                font-weight: bold;
+                font-size: 2rem;
+                padding: 0.5rem;
+                display: flex;
+                justify-content: center;
+                width: 20vw;
+                background-color: red;
+                color: white; 
+                border-radius: 5px;
+                border: 2px solid yellow;
+                font-family: "Pixel";
+                margin: 1rem;
+                &:hover {
+                    margin: 1rem;
+                }
+            }
+        }
+    
+    
+    

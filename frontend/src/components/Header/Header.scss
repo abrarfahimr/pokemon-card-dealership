@@ -1,0 +1,43 @@
+
+/* Hollow */
+@font-face {
+    font-family: "PokemonH";
+    src: url("../../assets/Font/Pokemon\ Hollow.ttf") format("truetype"),
+}
+
+/* Solid */
+@font-face {
+    font-family: "PokemonS";
+    src: url("../../assets/Font/Pokemon\ Solid.ttf") format("truetype"),
+}
+
+.header {
+    &__top { 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: red;
+    }
+    
+    &__title {
+    font-family: "PokemonS";
+    color: yellow; 
+    padding: 2rem 0rem 0rem 2rem;
+    font-size: 2rem;
+    margin: 0;
+    width: 100%;
+    text-decoration: none;
+    }
+    &__cart {
+        width: 2.5rem;
+        height: 2.5rem;
+        margin-right: 2rem;
+    }
+    &__divider {
+        background-image: url("../../assets/images/pikachu-running.gif");
+        background-size: contain;
+        background-color: red;
+        height: 2rem;
+
+    }
+}

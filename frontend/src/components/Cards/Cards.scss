@@ -1,0 +1,78 @@
+
+@font-face {
+    font-family: "Pixel";
+    src: url("../../assets/Font/pixel.ttf") format("truetype"),
+}
+.cardlist {
+    
+    &__block {
+        display: flex;
+        background-image: url('../../assets/images/background.gif');
+        background-size: cover;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+    
+    &__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: gold;
+        width: 30vw;
+        height: auto;
+        border-radius: .625rem;
+        box-shadow: 0 .3125rem .5625rem -0.0625rem rgba(0, 0, 0, 0.25);
+        background-size: cover;
+        margin: 1rem;
+
+        &-photo {
+            height: 10rem;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin:1rem;
+        }
+        &-name { 
+            color:black;
+            font-size: 2.0625rem;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Pixel";
+        }
+        &-rarity { 
+            color:black;
+            font-size: 2.0625rem;
+            text-align: center;
+        }
+        &-type { 
+            color:black;
+            font-size: 2.0625rem;
+            text-align: center;
+        }
+       &-price { 
+            color:black;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+        &-button {
+            font-weight: bold;
+            font-size: 2rem;
+            padding: 0.5rem;
+            display: flex;
+            justify-content: center;
+            width: 20vw;
+            background-color: red;
+            color: white; 
+            border-radius: 5px;
+            border: 2px solid yellow;
+            font-family: "Pixel";
+            margin: 1rem;
+            &:hover {
+                margin: 1rem;
+            }
+        }
+    }
+
+}
