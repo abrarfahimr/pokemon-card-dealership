@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 //Middleware to serve up static files
 app.use(express.static("public"));
 
-//route to all pokemon list
+//route to all pokemon lists
 app.use("/pokemon", pokemon);
 
 //startup the local server

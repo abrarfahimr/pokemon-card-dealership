@@ -21,26 +21,11 @@ router.get('/:id', (req, res) => {
   res.json(pokemonDetail);
 });
 
-//route to order history
-router.get('/history', (req, res) => {
-  const pokemonHistory = readPokemon('pokemon-history');
-  res.json(pokemonHistory);
+//route to get order history
+router.get('/orders', (req, res) => {
+  const pokemonOrder = readPokemon('pokemon-history');
+  res.json(pokemonOrder);
 });
-
-// //route to post pokemon data to buy history.
-// router.post('/history', (req, res) => {
-//   let pokemonList = readPokemon('pokemon');
-//   const newVideo = {
-//     id: '601f1bc5-b8bf-49ec-b163-48fc2984f8fb',
-//     title: req.body.title,
-//     channel: 'Mad Hat Pirates',
-//     image: 'http://localhost:8080/image9.jpeg',
-//   };
-//   videos.push(newVideo);
-//   fs.writeFileSync('./data/videos.json', JSON.stringify(videos));
-//   res.json(videos)
-// })
-
 
 
 module.exports = router;
