@@ -1,9 +1,1 @@
-[
-  {
-    "id": "c1566d6d-46e8-4834-aaac-ca78827b1ae9",
-    "title": "Tamamushi University Magikarp Trophy Promo",
-    "price": "$66,100",
-    "image": "http://localhost:8080/pokemon10.jpeg"
-  }
-]
-
+[{"id":"c1566d6d-46e8-4834-aaac-ca78827b1ae9","title":"Tamamushi University Magikarp Trophy Promo","price":"$66,100","image":"http://localhost:8080/pokemon10.jpeg"},{"id":"a07c4a85-d13d-4620-b64a-3f38760003df","title":"Poliwrath No Rarity Symbol Base Set","price":"$25,015","image":"http://localhost:8080/pokemon0.jpeg"},{"id":"3d16e2d0-d765-40bd-8624-ef85ac43c029","title":"Espeon Gold Star POP Series 5","price":"$22,000","image":"http://localhost:8080/pokemon1.jpeg"},{"id":"3d16e2d0-d765-40bd-8624-ef85ac43c029","title":"Espeon Gold Star POP Series 5","price":"$22,000","image":"http://localhost:8080/pokemon1.jpeg"},{"id":"a07c4a85-d13d-4620-b64a-3f38760003df","title":"Poliwrath No Rarity Symbol Base Set","price":"$25,015","image":"http://localhost:8080/pokemon0.jpeg"},{"id":"be1375d7-44ec-4799-b591-1c6a60685b2b","title":"Lugia 1st Edition Neo Genesis","price":"$144,300","image":"http://localhost:8080/pokemon5.jpeg"},{"id":"1f84295f-a2d1-4746-b442-a56f5b8901b7","title":"2006 Pokémon World Championships Promo No. 2 Trainer","price":"$110,100","image":"http://localhost:8080/pokemon4.jpeg"}]

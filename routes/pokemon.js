@@ -21,11 +21,6 @@ router.get('/:id', (req, res) => {
   res.json(pokemonDetail);
 });
 
-//route to get order history
-router.get('/orders', (req, res) => {
-  const pokemonOrder = readPokemon('pokemon-history');
-  res.json(pokemonOrder);
-});
 
 
 module.exports = router;
