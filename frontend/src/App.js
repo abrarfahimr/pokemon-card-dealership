@@ -6,23 +6,28 @@ import Shopping from'./components/pages/shoppingPage/shoppingPage';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
+const API_URL = process.env.REACT_APP_API_URL;
+console.log(API_URL);
+
 function App() {
   const [cards, setCards] = useState([]);
   const [cardId, setCardId] = useState([]);
   const [cardInfo, setCardInfo] = useState([])
 
   useEffect(() => {
-  axios.get(`http://localhost:8080/pokemon`)
-  .then(response => {
-    setCards(response.data);
-      }).catch(err => {
-      console.log(err)
-        })
+  axios
+    .get(`${API_URL}/pokemon`)
+    .then((response) => {
+      setCards(response.data);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
   }, []);
   
   useEffect(() => {
     axios
-      .get(`http://localhost:8080/pokemon/${cardId}`)
+      .get(`${API_URL}/pokemon/${cardId}`)
       .then((response) => {
         setCardInfo(response.data);
       })

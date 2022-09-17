@@ -25,6 +25,6 @@ app.use("/pokemon", pokemon);
 app.use('/orders', order);
 
 //startup the local server
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log("Server is up and running")
 })
