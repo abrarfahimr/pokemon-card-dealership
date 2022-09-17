@@ -2,6 +2,8 @@
 
 A fun ecommerce project
 
+Video demo: https://youtu.be/YM1i9z2bAu0
+
 ## Description
 
 Pokemon card dealership is an e-commerce platform that sells rare pokemon cards to customers. This project was part of the 24 hour pair programming hackathon at BrainStation. I paired up with my colleague Irene Xing to design a fun and interactive interface.
