@@ -41,5 +41,5 @@ npx nodemon index.js
 ```
 npm start
 ```
-## Authors
+## Co-Authors
 Irene Xing: [Github](https://github.com/Irenexing)
