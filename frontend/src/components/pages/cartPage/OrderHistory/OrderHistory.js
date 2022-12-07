@@ -1,20 +1,22 @@
 
 import './OrderHistory.scss';
 import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
+const API_URL = process.env.REACT_APP_API_URL;
 
 function OrderHistory({cardId, setCardId, cardInfo, setCardInfo }) {
 
     const[orderDetail, setOrderDetails] = useState([])
     useEffect(() => {
-      axios.get(`http://localhost:8080/orders`)
-        .then(response => {
-        setOrderDetails(response.data);
-          }).catch(err => {
-          console.log(err)
-            })
+      axios
+        .get(`${API_URL}/orders`)
+        .then((response) => {
+          setOrderDetails(response.data);
+        })
+        .catch((err) => {
+          console.log(err);
+        });
           },[]);
 
   return (
