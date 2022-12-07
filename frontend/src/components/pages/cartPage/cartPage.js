@@ -1,10 +1,10 @@
 
 import './cartPage.scss';
-import { useState, useEffect } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import OrderHistory from '../cartPage/OrderHistory/OrderHistory'
 
+const API_URL = process.env.REACT_APP_API_URL;
 
 function Cart({ cardId, setCardId, cardInfo, setCardInfo }) {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ function Cart({ cardId, setCardId, cardInfo, setCardInfo }) {
   const submitHandler = () => {
     alert('YOU GOT SCAMMED HAHAHA');
     axios
-      .post('http://localhost:8080/orders', {
+      .post(`${API_URL}/orders`, {
         id: cardInfo.id,
         title: cardInfo.title,
         price: cardInfo.price,

@@ -7,7 +7,6 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 const API_URL = process.env.REACT_APP_API_URL;
-console.log(API_URL);
 
 function App() {
   const [cards, setCards] = useState([]);
