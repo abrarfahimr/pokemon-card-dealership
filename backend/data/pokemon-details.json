@@ -6,7 +6,7 @@
     "description": "While the Water-type ‘mon has traditionally been one of the weaker valued cards from the 1996 and 1999 releases, this item is actually special. Due to there being extremely limited amounts even printed, barely any of them survived three decades later.",
     "date": "1996",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon0.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon0.jpeg"
   },
   {
     "id": "3d16e2d0-d765-40bd-8624-ef85ac43c029",
@@ -15,7 +15,7 @@
     "description": "Gold Star Pokémon cards are among the most valuable sets of Pokémon cards in existence and command an incredibly high value as a result. While all of the Gold Star Pokémon cards are rare, only appearing once in approximately every 88 booster packs (or two booster boxes) for certain Pokémon TCG expansions, the very rarest are the ‘Eeveelutions’",
     "date": "2004",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon1.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon1.jpeg"
   },
   {
     "id": "bde648bb-fa8d-462e-b55c-202f3b1238f4",
@@ -24,7 +24,7 @@
     "description": "No Rarity Pokémon cards are among the rarest Pokémon cards in existence, and few come rarer than the Venusaur Pokémon card from the game’s first print run in 1996.",
     "date": "1996",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon2.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon2.jpeg"
   },
   {
     "id": "ee80dd85-e033-44ea-ad61-8389fc21624d",
@@ -33,7 +33,7 @@
     "description": "While not the most flashy Pokemon card on the list, the Tropical Mega Battle promo is an absolute holy grail for Psyduck fans. It doesn’t get more adorable than seeing the Water-type ‘mon playing the ukulele while chilling in a hammock with Jigglypuff",
     "date": "1999",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon3.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon3.jpeg"
   },
   {
     "id": "1f84295f-a2d1-4746-b442-a56f5b8901b7",
@@ -42,7 +42,7 @@
     "description": "The incredibly rare Trophy card was handed out at the 2006 World Championship held in Anaheim, California. Since these Pokemon cards were only given to winners, it makes their population extremely low.",
     "date": "2006",
     "grading": "PSA 9",
-    "image": "http://localhost:8080/pokemon4.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon4.jpeg"
   },
   {
     "id": "be1375d7-44ec-4799-b591-1c6a60685b2b",
@@ -51,7 +51,7 @@
     "description": "Similar to Mewtwo, Lugia was an iconic Legendary for many children who grew up with the series in the ’00s. So it should come as no surprise that its debut as a Pokemon card was a major hit. Decades later, the Psychic bird has become a hot item for collectors. As a result, its expansion Neo Genesis has seen a jaw-dropping explosion in value, as players desperately try to hunt for the iconic Johto Pokemon card.",
     "date": "2000",
     "grading": "Pristine 10",
-    "image": "http://localhost:8080/pokemon5.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon5.jpeg"
   },
   {
     "id": "666f8f17-6ccc-408d-ab3c-303ecf5df83e",
@@ -60,7 +60,7 @@
     "description": "This 1998 Trophy Pokemon card could only be obtained by participating in a special tournament in Japan. The adorable item features artwork depicting Kangaskhan with its baby in its pouch, surrounded by holo sparkles.",
     "date": "1998",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon6.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon6.jpeg"
   },
   {
     "id": "a387965f-4e59-4d3c-8794-8e50beb26875",
@@ -69,7 +69,7 @@
     "description": "Originally commissioned by Wizards of the Coast in 1998, the Blastoise Presentation card was supposed to give stores an idea of what the TCG line would look like in its final print run. While there are varying reports about its history, it’s currently believed that only two are known to have ever existed, with only one currently accounted for.",
     "date": "1998",
     "grading": "CGC 8.5",
-    "image": "http://localhost:8080/pokemon7.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon7.jpeg"
   },
   {
     "id": "3a343008-7170-45a6-a6fd-7154234fbeeb",
@@ -78,7 +78,7 @@
     "description": "If you didn’t have one, you desperately opened booster pack after booster pack trying to obtain the glorious Pokemon card. 1st Edition versions of this 1999 base card can go for an absurd amount. Even more so if it’s “Shadowless” – an early print version that doesn’t have a shadow around the art’s border.",
     "date": "1999",
     "grading": "Gem Mint 10",
-    "image": "http://localhost:8080/pokemon8.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon8.jpeg"
   },
   {
     "id": "84e96018-4022-434e-80bf-000ce4cd12b8",
@@ -87,6 +87,6 @@
     "description": "Without a doubt, one of the rarest and most expensive of the rare Pokemon cards is the elusive Pikachu Illustrator card. In 1997, CoroCoro held an art competition where winners were given the stunning item which depicts the Electric-type adorably drawing other monsters. Logan Paul was seen wearing the TCG collectible during his WrestleMania debut on April 2.",
     "date": "1998",
     "grading": "PSA Gem Mint 10",
-    "image": "http://localhost:8080/pokemon9.jpeg"
+    "image": "https://pokemon-dealership-backend.onrender.com/pokemon9.jpeg"
   }
 ]
